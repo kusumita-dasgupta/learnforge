@@ -1,0 +1,3 @@
+{"question":"What is KV cache in transformer decoding and why does it matter?","ground_truth":"KV cache stores attention key/value tensors from previous tokens so decoding can reuse them instead of recomputing, reducing latency and compute for long outputs."}
+{"question":"Explain MemorySaver vs Store in LangGraph.","ground_truth":"MemorySaver is a checkpointer for short-term conversation state per thread; Store is long-term/persistent memory organized by namespaces for retrieval across sessions/agents."}
+{"question":"When can BM25 outperform dense retrieval?","ground_truth":"BM25 can outperform dense retrieval for exact lexical matches like error codes, IDs, version strings, or exact phrasing (e.g., specific parameter names)."}
