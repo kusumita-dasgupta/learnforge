@@ -476,7 +476,7 @@ def get_feedback(score, total, project_name, quiz_type, difficulty):
 st.markdown(
     """
     <div class="hero-card">
-        <div class="main-title">LearnForge — Agentic RAG Knowledge Architect</div>
+        <div class="main-title">LearnForge — Your Knowledge Architect</div>
         <div class="subtext">
             Turn personal learning materials into structured knowledge projects.
             Query indexed content, organize learning by project, and assess understanding
